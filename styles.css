@@ -1,0 +1,73 @@
+p{
+margin: 20px;
+padding: 20px;
+text-shadow: 7px 7px 7px rgb(93, 178, 162);
+font-family: "Bahnschrift SemiBold", sans-serif;
+font-size: 32px;
+color:#f8b500;
+}
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 480px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 190px;
+  text-align: right;
+  color: magenta;
+  font-size: 32px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+body{
+background-image: url("backgrnd.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+}
+
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+  color: #f9f9f9;
+
+  /* Uniform text field size */
+  width: 250px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  border: 1px solid #696969;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px black;
+}
+div {
+width: 180px;
+font-size: 30px;
+
+}
+
